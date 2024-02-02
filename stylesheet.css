@@ -1,59 +1,22 @@
 body{
     background-color:rgba(0, 0, 0, 0.668);
-    margin:0px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family:Verdana;
     font-size:14px;
+    scroll-behavior: smooth;
+   /* background-image: url("bgmi'.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;*/
 }
 
 #head {
     background-color:#eca800;
-    margin:10px;
     height:90px;
     display:flex;
     justify-content: center;
     border-radius: 10px;
 }
-/* #navibar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-ul{
-background-color:rgb(212, 169, 104);
-margin:10px;
-height:30px;
-border-radius: 10px;
-text-align: center;
-
-list-style-type:none;
-}
-#navibar ul li{
-    display:inline;
-    align-items: center;
-   
-}
-#navibar ul li a {
-    background-color: white;
-    margin-top: 50%;
-    font-size: 120%;
-    text-decoration: none;
-    color:black;
-    font-family: arial;
-   padding-left: 10px;
-   padding-right: 10px;
-    text-align: center;
-    margin:30px;
-    display:inline;
- 
-    
-   
-
-}
-
-#navibar ul li a:hover{
-    background-color: black;
-    color:white;
-} */
 
 #navbar{
     background-color:white;
@@ -62,9 +25,9 @@ list-style-type:none;
     margin-bottom: 10px;
     padding:10px;
     border-radius:10px;
-    margin-left: 10px;
+   
     border: 4PX solid #000;
-    margin-right: 10px;
+    
 
 }
 
@@ -95,7 +58,7 @@ list-style-type:none;
 }
 .main
 {
-    background-color:blanchedalmond;
+    background-color:#eca800;
     border-radius: 7px;
     margin-top:10px;
     margin-bottom: 10px;
@@ -109,6 +72,7 @@ list-style-type:none;
 .tit{
  
     text-decoration: underline;
+    text-align: center;
 }
 .guns{
     color:rgb(0, 0, 0);
@@ -117,7 +81,7 @@ list-style-type:none;
     
     
   
-    background-color: blanchedalmond;
+    background-color:#eca800;
     border-radius: 7px;
     padding: 20px;
     clear:right;
@@ -127,21 +91,15 @@ list-style-type:none;
 }
 
 .image {
- 
-    
-    margin-bottom: 10px;
-    border:4px solid white;
-   
-    width:300px;
-    
+    display: flex;
+    justify-content: center;
     border-radius: 7px;
-    opacity: 1.0;
    
-    transition: opacity 0.5s ease-in-out;
 }
-.image:hover{
-    opacity:0.4;
+.img1{
+    width: 500px;
 }
+
 .endbar{
     background-color:rgb(212, 169, 104) ;
     margin:10px;
@@ -205,8 +163,44 @@ h3{
     text-align: justify;
     text-wrap: wrap;
 }
+.imgsize{
+    width:400px;
+    
+}
+.m416{
+    display: flex;
+    gap:50px;
+}
 
+.imgname{
+    display: inline;
+    right:auto;
+    top:auto;
+}
+.top{
+    display: flex;
+    gap:350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gunname{
+   font-size: 200%; 
+   background-color: #eca800;
+   background-size:contain;
+   text-align: center;
+   border-radius: 5px;
+   padding: 5px;
+   width: 110px;
+}
+.skinname{
+    font-size: 170%; 
+   background-color: #eca800;
+   background-size:contain;
+   text-align: center;
+   border-radius: 5px;
+   padding: 5px;
 
+}
 
 
 

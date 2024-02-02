@@ -31,4 +31,20 @@
         justify-content: center ;
         align-self: center;
     }
+    .top{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .m416{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items:center  ;
+       
+    }
+    .imgsize{
+        width: 250px;
+    
+    }
 }
