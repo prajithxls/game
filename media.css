@@ -30,6 +30,17 @@
         align-items: center;
         justify-content: center ;
         align-self: center;
+        width: fit-content;
+    }
+    .items{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    .list{
+       font-size: 50%;
     }
     .top{
         flex-direction: column;

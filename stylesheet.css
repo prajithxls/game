@@ -16,19 +16,26 @@ body{
     display:flex;
     justify-content: center;
     border-radius: 10px;
+    border:#000 4px solid;
 }
 
-#navbar{
+.navbar{
+    position: sticky;
+    top:0px;
+    z-index: 1;
     background-color:white;
-    display: flex;
-    flex-direction: column;
+    display: flex;    flex-direction: column;
     margin-bottom: 10px;
     padding:10px;
     border-radius:10px;
-   
     border: 4PX solid #000;
-    
-
+    margin-top: 10px;
+    /* background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 .items{
@@ -45,16 +52,20 @@ body{
     border-radius: 50px;
     border:4px solid black;
     border-radius: 62px;
+    list-style: none;
     border-radius: 44px;
     transition: all .4s ease-in-out;
     background: #eca800;
-    box-shadow:  5px 5px 5px #dbdee1,
-                 -5px -5px 5px #ffffff;
+    
 }
 .list:hover{
     color:white;
     background-color: black;
     
+}
+#home{
+    position: sticky;
+    top:10px ;
 }
 .main
 {
@@ -165,7 +176,8 @@ h3{
 }
 .imgsize{
     width:400px;
-    
+    border:white 3px solid;
+    border-radius: 4px;
 }
 .m416{
     display: flex;
@@ -179,9 +191,10 @@ h3{
 }
 .top{
     display: flex;
-    gap:350px;
+    gap:200px;
     margin-top: 20px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 .gunname{
    font-size: 200%; 
@@ -191,6 +204,8 @@ h3{
    border-radius: 5px;
    padding: 5px;
    width: 110px;
+   border: 3px solid black;
+  
 }
 .skinname{
     font-size: 170%; 
@@ -199,8 +214,73 @@ h3{
    text-align: center;
    border-radius: 5px;
    padding: 5px;
+   border: 3px solid black;
+  
+}
+#gunbar{
+    height:60px;
+    color:white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius:5px ;
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+}
+#modes{
+    background-color: #000;
+    display: flex;    flex-direction: column;
+    margin-bottom: 10px;
+    padding:10px;
+    border-radius:10px;
+    border: 4PX solid #000;
 
 }
+.maps{
+    text-decoration: none;
+    color:#eca800;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    border-radius: 62px;
+    border-radius: 44px;
+    transition: all .4s ease-in-out;
+    background-color: black;
+    list-style-type: none;
+    width: fit-content;
+    font-size: 120%;
+    margin: 20px;
+   
+}
+.maps:hover{
+    color:black;
+    background-color: white;
+    border: #ffffff 4px solid;
+    }
+    .tags{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.mode{
+    height: fit-content;
 
-
-
+}
+#modebar{
+    height:60px;
+    color:white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius:5px ;
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    margin:10px;
+}
+/* .main{
+    display: flex;
+  
+} */
