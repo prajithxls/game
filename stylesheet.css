@@ -71,12 +71,16 @@ body{
 
 .list:hover{
     background-color: white;
-    border:black 7px solid;
+    border:black 10px solid;
 }
 .lists{
     color:black;
     text-decoration: none;
     font-size: 20px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
 }
 
 
@@ -195,6 +199,10 @@ h3{
     width:400px;
     border:white 3px solid;
     border-radius: 4px;
+    opacity: 0.5;
+}
+.imgsize:hover{
+    opacity:1;
 }
 .m416{
     display: flex;
@@ -243,7 +251,8 @@ h3{
     font-size: 120%;
     display: flex;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;  
+    MARGIN: 10px;    
 }
 #modes{
     background-color: #000;
@@ -273,7 +282,7 @@ h3{
 .maps:hover{
     color:black;
     background-color: white;
-    border: #ffffff 4px solid;
+ 
     }
 .mode{
     height: fit-content;
@@ -293,11 +302,42 @@ h3{
 }
 .main{
     height: max-content;
+    border:#000 4px solid;
   
 }
 .tags{
     display: flex;
     justify-content: center;
     align-items: center;
+   
+    
 }
+.both{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:800px;
+    border:#eca800 4px solid;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+.picture{
+    width: 200px;
+    border:black 3px solid;
+    border-radius: 4px;
+    height: 190px;
+  
+}
+.boths{
+    display: flex;
+    gap:200px;
+    margin-top: 20px;
+    flex-basis: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
 

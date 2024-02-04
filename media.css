@@ -82,4 +82,11 @@
     .tags{
         padding: 0;
     }
+    .boths{
+        flex-direction: column;
+        gap: 0;
+    }
+    .both{
+        width:100%;
+    }
 }
