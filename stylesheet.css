@@ -10,13 +10,17 @@ body{
     background-size: contain;*/
 }
 
-#head {
+.test{
     background-color:#eca800;
     height:90px;
     display:flex;
     justify-content: center;
     border-radius: 10px;
     border:#000 4px solid;
+}
+
+.test1{
+    background-color: pink;
 }
 .header{
     padding: 10px;
