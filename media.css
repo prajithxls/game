@@ -5,12 +5,26 @@
     *{
         margin: 0;
     }
+    #head{
+        margin-left: 18px;
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+    }
     #section{
         background-color: black;
         display: flex;
         width: 100%;
         justify-content: center;
         flex-direction: column;
+    }
+    #gunbar{
+        width: 100%;
     }
     .test{
         width:fit-content;
@@ -21,24 +35,19 @@
         align-items: center;
         gap:20px ;
     }
-    #navbar{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        height: 60px;
-        align-items: center;
-        justify-content: center ;
-        align-self: center;
-        width: fit-content;
+    .navbar{
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 10px;
     }
     .items{
-        width: fit-content;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         gap:20px;
         padding: 0;
-        margin-left: 18%;
+        
     }
     .list{
         display: flex;
@@ -54,7 +63,17 @@
     .top{
         flex-direction: column;
         gap: 10px;
+        width: 100%;
+        margin-left: 20px;
         
+    }
+    #gunbar{
+        width: 100%;
+        margin-left: 20px;
+    }
+    #modebar{
+        width: 100%;
+        margin-left: 20px;
     }
     .m416{
         flex-direction: column;
@@ -64,7 +83,7 @@
        
     }
     .imgsize{
-        width: 250px;
+        width: 100%;
     
     }
     .main{
@@ -72,6 +91,7 @@
         display: flex;
         padding-left: 5px;
         padding-right: 5px;
+        width: 100%;
         flex-direction: column;
         gap: 5px;
         text-align: justify;
@@ -88,5 +108,19 @@
     }
     .both{
         width:100%;
+        margin-left: 15px;
+    }
+    .m416{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #end{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .imgsize{
+        width: 100%;
     }
 }
