@@ -58,7 +58,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-       font-size: 50%;
+        font-size: 15px;
     }
     .top{
         flex-direction: column;
@@ -95,6 +95,9 @@
         flex-direction: column;
         gap: 5px;
         text-align: justify;
+    }
+    .tier{
+        font-size: 20px;
     }
     .maps{
         margin: 0;

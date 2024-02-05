@@ -76,7 +76,7 @@ body{
 .lists{
     color:black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Protest Strike", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -153,8 +153,9 @@ h3{
    border-radius: 62px;
    color:#eca800;
    font-size: 200%;
-   
-
+}
+.tier{
+    background-color: transparent;
 }
 .endbar ul{
     background-color:rgb(212, 169, 104);
