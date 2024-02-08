@@ -13,17 +13,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <!-- end -->
 
 
 </head>
 <body id="section">
     <div id="head">
-        <h3 class="header">bgmi.com</h3>
+        <ul>
+            <a href="#end"  class="help"> <i class="fa fa-info-circle"></i></a>
+        </ul>
+    
+        <h3 id="header" title="bgmi"></h3>
     </div>
-
-    <div class="navbar">
+    <!-- <div id="headers">
+        <p>battle ground mobile india</p>
+    </div> -->
+   <div class="navbar">
         <ul class="items">
             <ul id="home" class="list">
                 <a href="#head" class="lists">HOME</a>
@@ -31,8 +37,21 @@
             <ul class="list">
                 <a href="#gunbar" class="lists">GUNS</a>
             </ul>
-            <ul class="list">
-                <a href="#modebar" class="lists">MODES</a>
+            <ul class="list" id="mode_btn">
+                <a href="#modebar" class="lists">MODES</a> 
+                <div id="drop_down" class="drop_down">
+                    <ul class="drop_list">
+                        <li>
+                            <a href="#rankk" class="drop_list">Ranked</a><hr class="line">
+                        </li>
+                        <li>
+                            <a href="#unrank" class="drop_list">Un-Ranked</a><hr class="line">
+                        </li>
+                        <li>
+                            <a href="#others" class="drop_list">other</a>
+                        </li>
+                    </ul>
+               </div>
             </ul>
             <ul class="list">
                 <a href="#rankbar" class="lists">RANK</a>
@@ -115,20 +134,20 @@
        <h2>MODES</h2>
     </div>    
         <div class="main">
-           <ul class="tags">
-                <a href="ranked.html" class="maps">RANKED</a>
+           <ul class="tags" id="rankk">
+                <a href="" class="maps">RANKED</a>
            </ul>
             <p>There are 10 ranks in BMI that you will come across when you start playing BMI. The more you win games on Classic Mode, the more points you accumulate. These points will help you rank up through the BMI leaderboards. The ranked system consists of a variety of maps like Erangel, Vikendi, Miramar, Sanhok, Karakin, Livik, and a new map Nusa. Playinty this game mode improves your strategy-thinking ability like looting, map control, and winning chicken dinner.</p>
         </div>
         <div class="main">
-            <ul class="tags">
-                <a href="unranked.html" class="maps">UNRANKED</a>
+            <ul class="tags" id="unrank">
+                <a href="" class="maps">UNRANKED</a>
             </ul>
             <p>The unranked mode in BMI is divided into Classic Mode, Arena Mode, Arcade Mode, and more. The difference between Classic ranked and unranked matches are that your rank will not be at risk if you lose in unranked mode. In Arena Mode, there are different sub-modes like Team Deathmatch, Ultimate Arena Mode, Domination, Assault Mode, Gun Game, and Arena Training where you can train for specific situations like playing in the blue zone, sniper training, etc. The unranked mode is designed to train players for the ranked mode. Training in unranked helps you rank up faster in ranked games.</p>
         </div>
         <div class="main">
-            <ul class="tags">
-                <a href="other.html" class="maps">OTHER</a>
+            <ul class="tags" id="others">
+                <a href="" class="maps">OTHER</a>
             </ul>
             <p>There is also an other section in the unranked mode where you can play training grounds, Cheer park, customs rooms to refine your skills. In Arena Training, you will have different access to all the guns available in BMI and you check out the spray patterns and spray control by target practicing. Custom rooms are a fan favorite, being able to play private matches with 1-100 players with a single room card.</p>
         </div>

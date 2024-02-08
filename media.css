@@ -126,4 +126,8 @@
     .imgsize{
         width: 100%;
     }
+    hr{
+        width: 100%;
+        margin-left: 20px;
+    }
 }
